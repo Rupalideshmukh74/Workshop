@@ -9,6 +9,7 @@ namespace ConsoleApp8
             Console.WriteLine("Welcome to the Gambling Program!");
             Gambler gb = new Gambler();
             gb.gambling();
+            gb.Win_or_loss();
         }
     }
 }
